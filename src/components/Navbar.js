@@ -1,39 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
-function Navbar() {
-  const navStyle = {
-    display: "flex",
-    gap: "20px",
-    padding: "15px",
-    backgroundColor: "#6d676b",
-    color: "white",
-    listStyle: "none",
-  };
 
-  const linkStyle = {
-    color: "white",
-    textDecoration: "none",
-    fontWeight: "bold",
-  };
+function Navbar() {
   return (
-    <nav
-      style={{
-        display: "flex",
-        gap: "20px",
-        padding: "10px",
-        background: "#333",
-        color: "#fff",
-      }}
-    >
-      <Link to="/" style={{ color: "#fff", textDecoration: "none" }}>
-        Home
-      </Link>
-      <Link to="/todos" style={{ color: "#fff", textDecoration: "none" }}>
-        Todos
-      </Link>
-      <Link to="/contact" style={{ color: "#fff", textDecoration: "none" }}>
-        Contact
-      </Link>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm mb-4">
+      <div className="container">
+        {/* Brand Name */}
+        <Link className="navbar-brand fw-bold text-info" to="/">
+          Organize My Brain
+        </Link>
+
+        {/* Nav Links */}
+        <div className="navbar-nav ms-auto">
+          <Link className="nav-link mx-2" to="/">
+            Home
+          </Link>
+          <Link className="nav-link mx-2" to="/todos">
+            Todos
+          </Link>
+          <Link className="nav-link mx-2" to="/contact">
+            Contact
+          </Link>
+        </div>
+      </div>
     </nav>
   );
 }
