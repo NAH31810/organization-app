@@ -1,0 +1,12 @@
+[33m09d7844[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m feat: add form submission alert and required field validation
+[33mdf94309[m style: apply Bootstrap grid and card classes to contact view
+[33ma4dcbf0[m feat: implement controlled component state for contact form fields
+[33m10f13aa[m style: add conditional strike-through effect for completed items
+[33m3512dac[m feat: add visibility filters for all, completed, and incomplete tasks
+[33m6618245[m docs: install bootstrap and add global styling
+[33m3f151e4[m  refractor: move TodoList logic to dedicated component and clean up app.js
+[33m454f48a[m feat: complete functional contact form logic
+[33md9c889c[m feat: connect TodoPage component to routing
+[33mfb341e2[m feat: setup routing and horizontal navigation bar
+[33m8a687ea[m feat: cleanup project structure and add horizontal navbar
+[33m7cb7014[m first commit

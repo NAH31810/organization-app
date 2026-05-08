@@ -1,48 +1,51 @@
+// 1. IMPORTS ALWAYS GO AT THE TOP
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Contact from "./components/Contact";
 import TodoList from "./components/TodoList";
 
-// The Main App with Navigation
+// 2. THE FUNCTION STARTS HERE
 function App() {
   return (
     <Router>
-      {/* Bootstrap Navbar instead of custom flexbox */}
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
-        <div className="container">
-          <Link className="navbar-brand text-info fw-bold" to="/">
-            Organize My Brain
-          </Link>
-          <div className="navbar-nav">
-            <Link className="nav-link" to="/">
-              Home
+      {/* 3. THE WRAPPER DIV GOES INSIDE THE ROUTER */}
+      <div className="App">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+          <div className="container">
+            <Link className="navbar-brand text-info fw-bold" to="/">
+              Organize My Brain
             </Link>
-            <Link className="nav-link" to="/todos">
-              Todos
-            </Link>
-            <Link className="nav-link" to="/contact">
-              Contact
-            </Link>
+            <div className="navbar-nav ms-auto">
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
+              <Link className="nav-link" to="/todos">
+                Todos
+              </Link>
+              <Link className="nav-link" to="/contact">
+                Contact
+              </Link>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
 
-      <div className="container">
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <h1 className="text-center mt-5">
-                Welcome to Organize My Brain!
-              </h1>
-            }
-          />
-          <Route path="/todos" element={<TodoList />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <div className="container pb-5">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <h1 className="home-title">Welcome to Organize My Brain!</h1>
+              }
+            />
+            <Route path="/todos" element={<TodoList />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );
 }
+
 export default App;
