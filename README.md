@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Organize my Brain
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Developer :## Naomi Hernandez
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+A Task managment application built with React.
+This app features a custom calming Dusty blue aesthetic designed to provide a calming user experience while managing daily tasks.
 
-### `npm start`
+I
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Full CRUD:\*\* Create, Read and Delete tasks.
+*Filtering:** View all, completed or incomplete tasks.
+\*Contact form:** Intergrated Google Fonts and Flexbox centering.
 
-### `npm test`
+### Technologies used:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js
+- Bootstrap 5
+- CSS3
+- React Router
 
-### `npm run build`
+### Future improvements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- _Persistant Storage:_ Use localStorage to save tasks.
+- _Timer:_ Add focus timer for productivity.
+- _Animations:_ Add smooth transition for the task ccompletion.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### User Stories:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- As a user, I want an easy way to keep track of my tasks. I want to easily see my completed and incompleted tasks.
 
-### `npm run eject`
+- As a user, I want somewhere to easily add tasks I need to get done.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- As a user, I want to mark tasks completedd with a visual srike-through so i can clearly see my progress at a glance.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation and Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+\*\*Follow these steps to get a local copy of the project up and running:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the Repository
 
-## Learn More
+   ```bash
+   git clone [https://github.com/your-username/organize-my-brain.git](https://github.com/your-username/organize-my-brain.git)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Navigate to the project Directory:
 
-### Code Splitting
+   ```bash
+   cd organize-my-brain
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```
 
-### Analyzing the Bundle Size
+3. Install Dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm install
 
-### Making a Progressive Web App
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Start the Development Server:
+   ```bash
+   npm start
+   ```
