@@ -27,3 +27,13 @@ body,
   /* Make it stand out */
   text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
 }
+
+.home-subtitle {
+  font-family: "Arial", sans-serif;
+  font-size: 1.8rem;
+  color: #e1cfcf !important;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}

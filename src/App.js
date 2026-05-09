@@ -36,7 +36,15 @@ function App() {
             <Route
               path="/"
               element={
-                <h1 className="home-title">Welcome to Organize My Brain!</h1>
+                <div className="home-container">
+                  <h1 className="home-title">Welcome to Organize My Brain!</h1>
+                  <p className="home-subtitle">
+                    A little scatter brained? no worries, organize it here! This
+                    is a simple React app to help you keep track of your tasks
+                    and thoughts. Use the navigation bar to explore the
+                    different features. Happy organizing!
+                  </p>
+                </div>
               }
             />
             <Route path="/todos" element={<TodoList />} />
