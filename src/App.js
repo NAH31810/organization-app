@@ -3,10 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import TodoList from "./components/TodoList";
 
-// 2. THE FUNCTION STARTS HERE
+// 2. THE FUNCTION STARTS
 function App() {
   return (
     <Router>

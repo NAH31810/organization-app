@@ -35,7 +35,7 @@ const TodoList = () => {
         <div className="card-body">
           <h2 className="card-title text-center mb-4">My Tasks</h2>
 
-          {/* The FORM tag here is what makes the Enter key work! */}
+          {/* The FORM tag here is what makes the Enter key work */}
           <form
             onSubmit={(e) => {
               e.preventDefault();
