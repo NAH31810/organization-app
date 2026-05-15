@@ -1,19 +1,17 @@
 # Organize my Brain
 
-## Developer :## Naomi Hernandez
+## Developer : Naomi Hernandez
 
 ## Overview
 
-A Task managment application built with React.
+A Task management application built with React.
 This app features a custom calming Dusty blue aesthetic designed to provide a calming user experience while managing daily tasks.
-
-I
 
 ### Functionality
 
 *Full CRUD:\*\* Create, Read and Delete tasks.
 *Filtering:** View all, completed or incomplete tasks.
-\*Contact form:** Intergrated Google Fonts and Flexbox centering.
+\*Contact form:** Integrated Google Fonts and Flexbox centering.
 
 ### Technologies used:
 
@@ -26,7 +24,7 @@ I
 
 - _Persistant Storage:_ Use localStorage to save tasks.
 - _Timer:_ Add focus timer for productivity.
-- _Animations:_ Add smooth transition for the task ccompletion.
+- _Animations:_ Add smooth transition for the task completion.
 
 ### User Stories:
 
@@ -34,7 +32,7 @@ I
 
 - As a user, I want somewhere to easily add tasks I need to get done.
 
-- As a user, I want to mark tasks completedd with a visual srike-through so i can clearly see my progress at a glance.
+- As a user, I want to mark tasks completed with a visual strike-through so I can clearly see my progress at a glance.
 
 ## Installation and Setup
 
