@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/organize_my_brain_app/static/css/main.6c63136f.css",
-    "main.js": "/organize_my_brain_app/static/js/main.05e731ae.js",
-    "static/js/453.6b81de1a.chunk.js": "/organize_my_brain_app/static/js/453.6b81de1a.chunk.js",
-    "index.html": "/organize_my_brain_app/index.html",
-    "main.6c63136f.css.map": "/organize_my_brain_app/static/css/main.6c63136f.css.map",
-    "main.05e731ae.js.map": "/organize_my_brain_app/static/js/main.05e731ae.js.map",
-    "453.6b81de1a.chunk.js.map": "/organize_my_brain_app/static/js/453.6b81de1a.chunk.js.map"
+    "main.css": "/organization-app/static/css/main.d4a0073e.css",
+    "main.js": "/organization-app/static/js/main.8923adab.js",
+    "static/js/453.6b81de1a.chunk.js": "/organization-app/static/js/453.6b81de1a.chunk.js",
+    "index.html": "/organization-app/index.html",
+    "main.d4a0073e.css.map": "/organization-app/static/css/main.d4a0073e.css.map",
+    "main.8923adab.js.map": "/organization-app/static/js/main.8923adab.js.map",
+    "453.6b81de1a.chunk.js.map": "/organization-app/static/js/453.6b81de1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c63136f.css",
-    "static/js/main.05e731ae.js"
+    "static/css/main.d4a0073e.css",
+    "static/js/main.8923adab.js"
   ]
 }
