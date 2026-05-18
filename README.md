@@ -41,7 +41,7 @@ This app features a custom calming Dusty blue aesthetic designed to provide a ca
 1. Clone the Repository
 
    ```bash
-   git clone [https://github.com/your-username/organize-my-brain.git](https://github.com/your-username/organize-my-brain.git)
+   git clone NAH31810/organization-app
 
    ```
 
