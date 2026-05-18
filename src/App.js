@@ -2,7 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import TodoList from "./components/TodoList";
